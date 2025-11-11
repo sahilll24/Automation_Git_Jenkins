@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/YourName/your-react-app.git'
+                git branch: 'main', url: 'https://github.com/sahilll24/Automation_Git_Jenkins.git'
             }
         }
 
